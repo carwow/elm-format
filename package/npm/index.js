@@ -16,6 +16,7 @@ module.exports = binwrap({
     "darwin-x64": root + "-mac-x64.tgz",
     "darwin-arm64": root + "-mac-x64.tgz",
     "linux-x64": root + "-linux-x64.tgz",
+    "linux-arm64": root + "-linux-arm64.tgz",
     "win32-x64": root + "-win-x64.zip"
   }
 });
