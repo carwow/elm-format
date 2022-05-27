@@ -4,10 +4,7 @@ var path = require("path");
 var packageInfo = require(path.join(__dirname, "package.json"));
 var binVersion = packageInfo.version;
 
-var root = "https://github.com/avh4/elm-format/releases/download/" +
-  binVersion +
-  "/elm-format-" +
-  binVersion;
+var root = "https://github.com/carwow/elm-format/releases/download/" + binVersion + "/elm-format-" + binVersion;
 
 module.exports = binwrap({
   dirname: __dirname,

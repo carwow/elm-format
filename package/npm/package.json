@@ -1,18 +1,17 @@
 {
-  "name": "elm-format",
-  "version": "0.8.5",
+  "name": "@carwow/elm-format",
+  "version": "0.8.6",
   "description": "Install elm-format",
   "preferGlobal": true,
   "main": "index.js",
   "scripts": {
     "install": "binwrap-install",
     "prepare": "binwrap-prepare",
-    "prepublish": "npm test",
     "test": "eslint . && binwrap-test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/avh4/elm-format.git"
+    "url": "git+https://github.com/carwow/elm-format.git"
   },
   "keywords": [
     "elm-format"
@@ -20,13 +19,13 @@
   "author": "Aaron VonderHaar",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/avh4/elm-format/issues"
+    "url": "https://github.com/carwow/elm-format/issues"
   },
   "files": [
     "index.js",
     "bin"
   ],
-  "homepage": "https://github.com/avh4/elm-format",
+  "homepage": "https://github.com/carwow/elm-format",
   "bin": {
     "elm-format": "bin/elm-format"
   },
