@@ -23,6 +23,7 @@ platform :: Platform
 platform =
     case (System.Info.os, System.Info.arch) of
         ("linux", "x86_64") -> Linux
+        ("linux", "aarch64") -> Linux
         ("darwin", "x86_64") -> Mac
         ("osx", "x86_64") -> Mac
         ("mingw32", "x86_64") -> Windows
